@@ -15,6 +15,9 @@ import com.example.findnoteapp.ui.theme.FindNoteAppTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        //change
+        //change
         setContent {
             FindNoteAppTheme {
                 // A surface container using the 'background' color from the theme
