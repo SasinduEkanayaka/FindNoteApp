@@ -149,15 +149,15 @@ public final class TodoDatabase_Impl extends TodoDatabase {
   }
 
   @Override
-  public TodoDao getTodoDao() {
+  public findnote_Impl getTodoDao() {
     if (_todoDao != null) {
-      return _todoDao;
+      return find;
     } else {
       synchronized(this) {
         if(_todoDao == null) {
-          _todoDao = new TodoDao_Impl(this);
+          _todoDao = new findnote_Impl(this);
         }
-        return _todoDao;
+        return find;
       }
     }
   }
